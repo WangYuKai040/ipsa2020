@@ -1,6 +1,6 @@
 # ipsa2020
 
-ftp
+ftp  
 C:\Users\KSUIE>ftp  120.114.62.207  
 已連線到 120.114.62.207。  
 220 (vsFTPd 3.0.3)  
