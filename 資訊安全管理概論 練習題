@@ -1,0 +1,17 @@
+# CIA 機密性、完整性、可用性
+
+- Confidentiality(機密性) 
+Prevent disclosure of data.  
+.確保資料的傳遞與儲存的機密性  
+.避免未經授權的使用者揭漏資料內涵  
+.機密性和資料傳遞和儲存時務必加密處理  
+.採用安全性協定(eg.SSL、IPSec)  
+- Integrity(完整性)  
+Prevent modification of data.  
+.避免未經授權的使用者或處理程序竄改資料  
+.所使用的文件經傳送或儲存過程中，必須證明其內容未遭到竄改或偽造才能稱為完整性  
+- Availability(可用性)  
+Ensure reliable timely access to data.  
+.讓資料隨時保持可用狀況  
+.企業資料必須及時並可靠的提供給內部各個層級的使用需求  
+.必須確保不能中斷服務  
