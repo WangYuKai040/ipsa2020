@@ -5,7 +5,7 @@ o# 滲透測試
 # 查IP
 ```
 ifconfig (linux)
-ipconfig 查IP(Windows)
+ipconfig (Windows)
 ```
 # netdiscover (ARP偵查工具)
 ```
