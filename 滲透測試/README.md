@@ -4,7 +4,10 @@
 ```
 # kail linux
 
-# ifconfig (此工具用於組態、控制及查詢TCP/IP網路介面)
+# ifconfig
+```
+此工具用於組態、控制及查詢TCP/IP網路介面
+```
 ```
 # ifconfig 查看IP
 ```
@@ -30,6 +33,7 @@ Running:Microsoft Windows XP｜2003 目標IP作業系統可能是XP｜2003
 ```
 
 # Nmap漏洞掃描
+https://blog.gtwang.org/linux/nmap-command-examples-tutorials/
 ```
 # namp -O 10.0.2.4 掃描目標IP漏洞
 # namp --script vuln 10.0.2.4 掃描目標是否有常見的漏洞 (如MS-08-067)
@@ -56,8 +60,16 @@ SMB客戶端：
 
 # Windows XP
 
-# taskkill 此工具可依據處理程序識別碼(PID)或影像名稱來中止工作
+# netstat
+http://aries.dyu.edu.tw/~tarng/dyu_c.c/netstat.htm
+```
+顯示通訊協定統計資料以及目前的 TCP/IP 網路連線
+```
+# taskkill 
+```
+此工具可依據處理程序識別碼(PID)或影像名稱來中止工作
+```
 ```
 taskkill/? 查看參數
-taskkill /PID (指定要終止之處理的程序PID)
+taskkill /F PID (指定要終止之處理的程序PID)
 ```
