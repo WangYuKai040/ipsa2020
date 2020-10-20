@@ -2,12 +2,12 @@
 ```
 滲透測試是類比駭客的手法對網路或主機進行攻擊測試，為的是發掘系統漏洞、並提出改善方法
 ```
-# ifconfig
+# ipconfig
 ```
 此工具用於組態、控制及查詢TCP/IP網路介面
 ```
 ```
-# ifconfig 查IP
+# ipconfig 查IP
 ```
 # netdiscover (ARP偵查工具)
 ```
