@@ -32,8 +32,12 @@ Running:Microsoft Windows XP｜2003 目標IP作業系統可能是XP｜2003
 它是一個用來確認網路裝置位置的位址。在OSI模型中，第三層網路層負責IP位址，第二層資料鏈結層則負責MAC位址
 ```
 
-# Nmap漏洞掃描
+# Nmap 漏洞掃描
 https://blog.gtwang.org/linux/nmap-command-examples-tutorials/
+https://www.lijyyh.com/2012/03/nmap-using-nmap-security-scanner.html
+```
+Nmap兩大技術 1.一般掃描 2.nmap s
+```
 ```
 # namp -O 10.0.2.4 掃描目標IP漏洞
 # namp --script vuln 10.0.2.4 掃描目標是否有常見的漏洞 (如MS-08-067)
