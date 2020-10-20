@@ -33,7 +33,7 @@ Running:Microsoft Windows XP｜2003 目標IP作業系統可能是XP｜2003
 ```
 
 # Nmap 漏洞掃描
-https://blog.gtwang.org/linux/nmap-command-examples-tutorials/
+https://blog.gtwang.org/linux/nmap-command-examples-tutorials/  
 https://www.lijyyh.com/2012/03/nmap-using-nmap-security-scanner.html
 ```
 Nmap兩大技術 1.一般掃描 2.nmap s
