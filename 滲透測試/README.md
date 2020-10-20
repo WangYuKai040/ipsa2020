@@ -1,10 +1,12 @@
-# 滲透測試
+o# 滲透測試
 ```
 滲透測試是類比駭客的手法對網路或主機進行攻擊測試，為的是發掘系統漏洞、並提出改善方法
 ```
-# ifconfig 查IP(linux)
-# inconfig 查IP(Windows)
-
+# 查IP
+```
+ifconfig (linux)
+ipconfig 查IP(Windows)
+```
 # netdiscover (ARP偵查工具)
 ```
 # netdiscover -h 查看參數
