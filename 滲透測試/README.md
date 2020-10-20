@@ -2,9 +2,8 @@
 ```
 滲透測試是類比駭客的手法對網路或主機進行攻擊測試，為的是發掘系統漏洞、並提出改善方法
 ```
-```
 # kail linux
-```
+
 # ifconfig (此工具用於組態、控制及查詢TCP/IP網路介面)
 ```
 # ifconfig 查看IP
@@ -21,7 +20,7 @@ Running:Microsoft Windows XP｜2003 目標IP作業系統可能是XP｜2003
 # netdiscover -r 10.0.2.4 掃描目標IP範圍?
 ```
 ### ARP 位址解析協定 (Address Resolution Protocol,ARP)
-
+```
 在乙太網路協定中規定，同一區域網路中的一台主機要和另一台主機進行直接通信，必須要知道目標主機的MAC位址
 ```
 ### MAC位址
