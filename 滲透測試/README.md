@@ -40,3 +40,17 @@ Running:Microsoft Windows XP｜2003 目標IP作業系統可能是XP｜2003
 又稱常見漏洞與披露，是一個與資訊安全有關的資料庫，收集各種資安弱點及漏洞並給予編號以便於公眾查閱
 ```
 ### CVE-2020-0796 RCE漏洞
+```
+Windows 10和Windows Server操作系統存在這個漏洞
+根據微軟的說法，攻擊者可以利用此漏洞在SMB服務器或SMB客戶端上執行任意代碼。攻擊者只要發送精心構造的數據包就能攻擊服務器。
+而要想攻擊客戶端，攻擊者則須先配置一個惡意的SMBv3服務器，並讓用戶連接到它。
+網路安全專家認為，該漏洞可被用於啟動類似WannaCry的蠕蟲病毒。微軟表示該漏洞非常嚴重，必須盡快關閉。
+```
+### 用戶該怎麼做？
+```
+SMB服務器：
+通過PowerShell 指令阻止該漏洞被利用：
+Set-ItemProperty -Path “HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters” DisableCompression -Type DWORD -Value 1 –Force
+SMB客戶端：
+與應對WannaCry的方法一樣，微軟建議企業邊界防火牆關閉TCP端口445。
+```
