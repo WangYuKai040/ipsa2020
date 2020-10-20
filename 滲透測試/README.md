@@ -2,14 +2,12 @@
 ```
 滲透測試是類比駭客的手法對網路或主機進行攻擊測試，為的是發掘系統漏洞、並提出改善方法
 ```
-# kail linux
-
 # ifconfig
 ```
 此工具用於組態、控制及查詢TCP/IP網路介面
 ```
 ```
-# ifconfig 查看IP
+# ifconfig 查IP
 ```
 # netdiscover (ARP偵查工具)
 ```
@@ -61,13 +59,13 @@ Set-ItemProperty -Path “HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\P
 SMB客戶端：
 與應對WannaCry的方法一樣，微軟建議企業邊界防火牆關閉TCP端口445。
 ```
-
-# Windows XP
-
 # netstat
 http://aries.dyu.edu.tw/~tarng/dyu_c.c/netstat.htm
 ```
 顯示通訊協定統計資料以及目前的 TCP/IP 網路連線
+```
+```
+# netstat -h 查看參數
 ```
 # taskkill 
 ```
