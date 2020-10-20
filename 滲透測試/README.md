@@ -73,5 +73,5 @@ http://aries.dyu.edu.tw/~tarng/dyu_c.c/netstat.htm
 ```
 ```
 taskkill/? 查看參數
-taskkill /F PID (指定要終止之處理的程序PID)
+taskkill /F (指定要終止之處理的程序PID)
 ```
