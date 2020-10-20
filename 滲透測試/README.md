@@ -2,16 +2,15 @@
 ```
 滲透測試是類比駭客的手法對網路或主機進行攻擊測試，為的是發掘系統漏洞、並提出改善方法
 ```
-# ifconfig
-```
-用於組態、控制及查詢TCP/IP網路介面的系統管理工具
-```
+# kail linux
+
+# ifconfig (此工具用於組態、控制及查詢TCP/IP網路介面)
 ```
 # ifconfig 查看IP
 ```
 # netdiscover (ARP偵查工具)
 ```
-# netdiscover -h 查看參數指令
+# netdiscover -h 查看參數
 
 常用指令參數：netdiscover [-P 埠口掃描(Port->服務掃描)][-O 作業系統掃描] [-sP Ping掃描(ping scan)]
 [-i設備] [-r範圍| -l文件| -p] [-s時間] [-n節點] [-c計數] [-f] [-d] [-S] [-C]
@@ -21,7 +20,7 @@ Running:Microsoft Windows XP｜2003 目標IP作業系統可能是XP｜2003
 # netdiscover -r 10.0.2.4 掃描目標IP範圍?
 ```
 ### ARP 位址解析協定 (Address Resolution Protocol,ARP)
-```
+
 在乙太網路協定中規定，同一區域網路中的一台主機要和另一台主機進行直接通信，必須要知道目標主機的MAC位址
 ```
 ### MAC位址
@@ -53,4 +52,12 @@ SMB服務器：
 Set-ItemProperty -Path “HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters” DisableCompression -Type DWORD -Value 1 –Force
 SMB客戶端：
 與應對WannaCry的方法一樣，微軟建議企業邊界防火牆關閉TCP端口445。
+```
+
+# Windows XP
+
+# taskkill 此工具可依據處理程序識別碼(PID)或影像名稱來中止工作
+```
+taskkill/? 查看參數
+taskkill /PID (指定要終止之處理的程序PID)
 ```
