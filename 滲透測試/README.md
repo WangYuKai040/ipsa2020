@@ -12,10 +12,15 @@
 # netdiscover (ARP偵查工具)
 ```
 # netdiscover -h 查看參數指令
-用法：netdiscover [-i設備] [-r範圍| -l文件| -p] [-s時間] [-n節點] [-c計數] [-f] [-d] [-S] [-P] [-C]
-# netdiscover -r 10.0.2.4 掃描指定IP範圍 
+
+常用指令參數：netdiscover [-P 埠口掃描(Port->服務掃描)][-O 作業系統掃描] [-sP Ping掃描(ping scan)]
+[-i設備] [-r範圍| -l文件| -p] [-s時間] [-n節點] [-c計數] [-f] [-d] [-S] [-C]
+
+# netdiscover -O 10.0.2.4 掃描目標IP可能的作業系統
+Running:Microsoft Windows XP｜2003 目標IP作業系統可能是XP｜2003
+# netdiscover -r 10.0.2.4 掃描目標IP範圍?
 ```
-### 位址解析協定 (Address Resolution Protocol,ARP)
+### ARP 位址解析協定 (Address Resolution Protocol,ARP)
 ```
 在乙太網路協定中規定，同一區域網路中的一台主機要和另一台主機進行直接通信，必須要知道目標主機的MAC位址
 ```
@@ -27,8 +32,11 @@
 
 # Nmap漏洞掃描
 ```
-# namp -o 10.0.2.4 (後面是目標IP)
-# namp --script vuln 10.0.2.4 檢查目標是否有常見的漏洞 (如MS-08-067)
-
-nmap script常見使用指南:https://kknews.cc/zh-tw/code/xjaljar.html
+# namp -O 10.0.2.4 掃描目標IP漏洞
+# namp --script vuln 10.0.2.4 掃描目標是否有常見的漏洞 (如MS-08-067)
 ```
+### CVE 公共漏洞和暴露（Common Vulnerabilities and Exposures,CVE）
+```
+又稱常見漏洞與披露，是一個與資訊安全有關的資料庫，收集各種資安弱點及漏洞並給予編號以便於公眾查閱
+```
+### CVE-2020-0796 RCE漏洞
