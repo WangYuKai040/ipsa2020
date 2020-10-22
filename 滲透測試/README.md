@@ -1,4 +1,47 @@
-o# 滲透測試
+# 系統平台cloud.IOT.Mobil
+```
+(PC)sofware ->Application/system OS.
+Hardare ->Security
+Fimware ->Security
+OS
+kali -> XP Penetration Test 滲透測試
+                            駭客攻防
+學習目標 安全防護
+V BOX windows
+PT 功 -> 防-
+1.確認網路中有哪些服務開啟(live)?
+ifconfig
+2.某主機是否存在?
+netdiscover -r
+3.檢查作業系統(OS)版本?
+nmap -O
+4.確認某主機開啟哪些服務(SERVICE)?
+5.是否有某漏洞?
+namp --script vuln smb-vuln-ms08-067.nse -p445
+6.Exploitation ->metasploit
+7.POST-Exploitation -> meterperter
+```
+```
+powershell windows
+Openvas漏洞掃描
+防-滲透測試
+1.如何列出有那些連線到我的系統
+  PID == process
+netstat -ano
+2.殺掉
+taskkill /F
+```
+# 漏洞
+```
+ms08-067
+ms17-010
+   年
+CVE-2020-____
+Windows CVE rdp
+```
+
+
+# 滲透測試
 ```
 滲透測試是類比駭客的手法對網路或主機進行攻擊測試，為的是發掘系統漏洞、並提出改善方法
 ```
@@ -32,7 +75,7 @@ Running:Microsoft Windows XP｜2003 目標IP作業系統可能是XP｜2003
 https://blog.gtwang.org/linux/nmap-command-examples-tutorials/  
 https://www.lijyyh.com/2012/03/nmap-using-nmap-security-scanner.html
 ```
-Nmap兩大技術 1.一般掃描 2.nmap s
+Nmap兩大技術 一般掃描 vs NSE掃描  Nmap Scripting Engine (NSE)  
 ```
 ```
 # namp -O 10.0.2.4 掃描目標IP漏洞
