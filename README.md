@@ -14,5 +14,5 @@ ftp> 123
 不正確的命令。  
 ```
 ```
-![wireshark](./connect2google20201012.pcapng)
+![[wireshark](protocol.jpg)
 ```
